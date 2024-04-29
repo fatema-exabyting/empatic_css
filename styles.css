@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+.sidebar {
+    background-color: #F1F2F4;
+    height: auto;
+}
+
+.sidebar>img {
+    padding: 28.7px 75.5px 25.3px 24px;
+}
+
+.sidebarMenu {
+    padding: 24px 24px 0px 20px;
+}
+
+.sidebarItem {
+    color: #6D8198;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+/* navbar */
+.navbar {
+    padding: 24px 32px;
+    background-color: white;
+}
+
+.navbarTitle {
+    color: #0F1828;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbarImg {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+/* content */
+.mainContent {
+    padding: 32px 32px 0 32px ;
+}
+
+.contentTitle {
+    color: #0F1828;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contentSubtitle {
+    color: #6D8198;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.details {
+    padding: 24px 32px;
+}
+
+.joiningDate {
+    padding: 4px 8px;
+    color: #052217;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 9999px;
+    border: 1px solid #7EC8A1;
+    background: #D7F0E0;
+    display: inline-block;
+}
+
+.joiningDate>span {
+    font-weight: 700;
+}
+
+.inputTitle {
+    color: #0F1828;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 6px;
+}
+
+.inputField {
+    border-radius: 8px;
+    border: 1px solid #C6D5E2;
+    background-color: #F9FAFB;
+    box-shadow: 0px 1px 2px 0px rgba(14, 24, 41, 0.05);
+    color: #0F1828;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.form-control {
+    padding: 16px 14px;
+
+}
+
+.form-control:focus {
+    border-color: #C6D5E2 !important;
+    box-shadow: none !important
+}
+
+input[readonly] {
+    color: #6D8198;
+}
+
+.form-select {
+    padding: 12px 14px;
+}
+
+.form-select:focus {
+    border-color: #C6D5E2 !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.inputNotice {
+    color: #2F3B4A;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 6px;
+}
+
+.companyInfo {
+    padding-top: 24px;
+}
+
+.uploadFile {
+    padding: 48px 24px;
+    border-radius: 12px;
+    border: 1px solid var(--Gray-300, #EDEFF2);
+    background: var(--Generic-White, #FFF);
+}
+
+.uploadFileIcon {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #F0F2F4;
+    box-shadow: 0px 1px 2px 0px rgba(14, 24, 41, 0.05);
+}
+
+.uploadFileText {
+    padding-top: 12px;
+    color: #2F3B4A;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.clickFile {
+    color: #349B6D;
+    font-weight: 600;
+}
+
+.UploadFileNotice {
+    padding-top: 8px;
+    color: #6D8198;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.letterCount {
+    top: 18px;
+    right: 14px;
+    color: #6D8198;
+
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.brandColorsGap {
+    gap: 12px;
+}
+
+.pickColor {
+    border-radius: 8px;
+    border: 1px solid #C6D5E2;
+    background: #FFF;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.10);
+    padding: 16px 14px;
+    color: #6D8198;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 12px;
+}
+
+.pickColortext {
+    padding-top: 12px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 16px;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.brifeLetterCounter {
+    padding-top: 6px;
+    color: #2F3B4A;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.submitBtn {
+    padding: 16px 22px;
+    border-radius: 8px;
+    background-color: #F0F2F4;
+    box-shadow: 0px 1px 2px 0px rgba(14, 24, 41, 0.05);
+    color: #9DAFC2;
+
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+.btn:hover{
+    color: #9DAFC2;
+    background-color: #F0F2F4;
+
+}
