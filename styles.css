@@ -180,10 +180,6 @@ input[readonly] {
     font-weight: 500;
 }
 
-.brandColorsGap {
-    gap: 12px;
-}
-
 .pickColor {
     border-radius: 8px;
     border: 1px solid #C6D5E2;
